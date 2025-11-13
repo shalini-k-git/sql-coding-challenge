@@ -20,20 +20,39 @@ Scenario: Add a new column DoctorAssigned VARCHAR(50) to the Patients table.
 Expected Output:
 <br>
 The Patients table now has an additional column DoctorAssigned.
+<br>
+<br>
 __
+<br>
 Question 3: ALTER – Modify Column
+<br>
 Scenario: Increase the length of PatientName from VARCHAR(50) to VARCHAR(100).
+<br>
 Expected Output:
+<br>
 The column PatientName now allows up to 100 characters.
+<br>
+<br>
 __
+<br>
 Question 4: RENAME Table
+<br>
 Scenario: Rename the table Patients to Patient_Info.
+<br>
 Expected Output:
+<br>
 The table name is successfully changed to Patient_Info.
+<br>
+<br>
 __
+<br>
 Question 5: TRUNCATE vs DROP
+<br>
 Scenario:
+<br>
 At year-end, delete all patient records but keep the table. Later, remove it permanently.
+<br>
 Expected Output:
+<br>
 •    TRUNCATE keeps the structure but clears data.
 •    DROP removes the table completely. 
