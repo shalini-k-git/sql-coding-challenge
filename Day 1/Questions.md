@@ -1,13 +1,24 @@
 Day 1: SQL Coding Challenge – Hospital Database 🏥
+<br>
 __Question 1: CREATE Table
+<br>
 Scenario: Create a table named Patients with the following fields:
+<br>
 PatientID, PatientName, Age, Gender, AdmissionDate.
+<br>
 Expected Output:
+<br>
 A new table Patients is created successfully.
+<br>
+<br>
 __
+<br>
 Question 2: ALTER – Add Column
+<br>
 Scenario: Add a new column DoctorAssigned VARCHAR(50) to the Patients table.
+<br>
 Expected Output:
+<br>
 The Patients table now has an additional column DoctorAssigned.
 __
 Question 3: ALTER – Modify Column
